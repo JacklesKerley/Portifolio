@@ -16,6 +16,10 @@ header .logo img {
   border-radius: 50%;
   box-shadow: 0px 1px 5px white;
 }
+header .logo img:hover {
+  filter: invert(100%);
+  transition: 0.7s ease;
+}
 header .navegavel {
   text-align: center;
 }
@@ -28,16 +32,28 @@ header .navegavel a {
 header .navegavel a:hover {
   color: silver;
   border-bottom: 2px solid silver;
+  transition: 0.5s ease;
 }
 
 .home {
   text-align: center;
   color: white;
 }
+@media (min-width: 1400px) {
+  .home {
+    margin-top: 50px;
+  }
+}
 .home img {
   width: 380px;
   border-radius: 50%;
-  box-shadow: 0px 8px 15px white;
+  box-shadow: 0px 8px 15px rgb(165, 165, 165);
+  filter: contrast(120%);
+}
+@media (min-width: 1400px) {
+  .home img {
+    width: 480px;
+  }
 }
 .home .titulo p {
   font-size: 45px;

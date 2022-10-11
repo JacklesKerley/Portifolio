@@ -4,11 +4,20 @@
 .home {
     text-align: center;
     color: white;
+
+    @media (min-width: 1400px) {
+        margin-top: 50px;
+    }
     
     img {
         width: 380px;
         border-radius: 50%;
-        box-shadow: 0px 8px 15px white;
+        box-shadow: 0px 8px 15px rgb(165, 165, 165);
+        filter: contrast(120%);
+
+        @media (min-width: 1400px) {
+            width: 480px;
+        }
     }
     
     .titulo {

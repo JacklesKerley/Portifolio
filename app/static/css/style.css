@@ -35,31 +35,61 @@ header .navegavel a:hover {
   transition: 0.5s ease;
 }
 
-.home {
+.pg-home {
   text-align: center;
   color: white;
 }
 @media (min-width: 1400px) {
-  .home {
+  .pg-home {
     margin-top: 50px;
   }
 }
-.home img {
+.pg-home img {
   width: 380px;
   border-radius: 50%;
   box-shadow: 0px 8px 15px rgb(165, 165, 165);
   filter: contrast(120%);
 }
 @media (min-width: 1400px) {
-  .home img {
+  .pg-home img {
     width: 480px;
   }
 }
-.home .titulo p {
+.pg-home .titulo p {
   font-size: 45px;
   letter-spacing: 7px;
 }
-.home .subTitulo p {
+.pg-home .subTitulo p {
   letter-spacing: 14px;
   font-style: italic;
+}
+
+.pg-contato {
+  color: white;
+}
+.pg-contato .caixa-contato {
+  width: 90%;
+}
+.pg-contato .formulario input {
+  background-color: rgba(160, 160, 160, 0.562);
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 5px;
+}
+.pg-contato .formulario input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.pg-contato .formulario input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.pg-contato .formulario input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.pg-contato .formulario textarea {
+  background-color: rgba(160, 160, 160, 0.562);
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 5px;
+}
+.pg-contato .caixa-img img {
+  width: 50px;
+  height: 50px;
 }/*# sourceMappingURL=style.css.map */

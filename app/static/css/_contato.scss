@@ -1,0 +1,32 @@
+.pg-contato {
+    color: white;
+
+    .caixa-contato {
+        width: 90%;
+    }
+
+    .formulario {
+        input {
+            background-color: rgba(160, 160, 160, 0.562);
+            border: 1px solid rgb(39, 39, 39);
+            border-radius: 5px;
+
+            &::placeholder {
+                color:rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        textarea {
+            background-color: rgba(160, 160, 160, 0.562);
+            border: 1px solid rgb(39, 39, 39);
+            border-radius: 5px;
+        }
+    }
+
+    .caixa-img {
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}

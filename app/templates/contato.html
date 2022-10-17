@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Contato</title>
+
+{% endblock %}
+
+{% block body %}
+
+<section class="pg-contato container-fluid ">
+    
+    <div class="caixa-contato mx-auto pt-5">
+        
+        <div>
+            <p class="h2">Entre em contato</p>
+        </div>
+        
+        <div class="mt-4">
+            <form action="" class="formulario d-grid gap-2">
+                <div>
+                    <label for="">Nome:</label><br>
+                    <input type="text" class="w-50">
+                </div>
+                <div>
+                    <label for="">Email:</label><br>
+                    <input type="email" class="w-50" placeholder="exemplo@mail.com">
+                </div>
+                <div>
+                    <label for="">Mensagem:</label><br>
+                    <span><textarea  class="w-75 h-75"></textarea></span>
+                </div>
+                <button type="submit" class="btn btn-secondary btn-sm w-25 mt-2">Enviar</button>
+            </form>
+        </div>
+        
+        <div class="caixa-img w-50 mt-5 mx-auto">
+            <p class="h5 text-center pt-3">Você também pode me contatar através das plataformas abaixo.</p>
+
+            <div class="w-50 mx-auto d-flex justify-content-around mt-4">
+                <a href="https://www.linkedin.com/in/jackles-kerley/" target="_blank"><img src="../static/img/RedeLinkedinColor.png" alt="Linkedin"></a>
+                <a href="https://github.com/JacklesKerley" target="_blank"><img src="../static/img/RedeGithub.png" alt="Github"></a>
+                <a href="https://www.instagram.com/jackleskerley/" target="_blank"><img src="../static/img/RedeInstagramColor.png" alt="Instagram"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+{% endblock %}

@@ -2,20 +2,34 @@
 
 {% block head %}
 
+<style>
+  body{
+    background-image: url("../static/img/fotoback.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  /* .header {
+    display: none !important;
+  } */
+</style>
+
 {% endblock %}
 
 {% block body %}
 
-  <section class="pg-home container-fluid">
-    <div class="pt-5">
-      <img src="../static/img/Foto_jackles.jpg" alt="FotoJackles">
+  <section class="pg-home container-fluid d-flex align-items-center">
+
+    <div class="conteudo mx-auto d-flex align-items-center">
+      <div>
+        <p class="m-0 p-0">Hello World !<br>
+        I'm <span>Jackles</span>,<br>
+        Web Developer.</p>
+      </div>
     </div>
-    <div class="titulo mt-3">
-      <p class="mb-0 h1"> Jackles Kerley</p>
-    </div>
-    <div class="subTitulo mb-0">
-      <p class="h6">Web Developer</p>
-    </div>
+
   </section>
 
 {% endblock %}

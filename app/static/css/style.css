@@ -129,11 +129,7 @@ header .navegavel a:hover {
 .pg-academic .limit2 .cursos li {
   margin: 30px 0;
 }
-.pg-academic .limit2 .li-interna {
-  list-style: none;
-}
 .pg-academic .limit2 .li-interna li {
-  padding-left: 20px;
   margin: 0;
 }
 

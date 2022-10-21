@@ -10,6 +10,10 @@ def index():
 def lifestyle():
   return render_template('lifestyle.html') 
 
+@app.route('/academic')
+def academic():
+  return render_template('academic.html') 
+
 @app.route('/contato')
 def contato():
   return render_template('contato.html') 

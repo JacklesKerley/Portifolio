@@ -1,0 +1,31 @@
+
+.pg-academic {
+    color: white;
+
+    .limit2 {
+        min-height: 90vh;
+
+        .formacao {
+            li {
+                margin: 30px 0;
+            }
+        }
+
+        .cursos {
+            li {
+                margin: 30px 0;
+            }
+        }
+
+        .li-interna {
+            list-style: none;
+
+            li {
+                padding-left: 20px;
+                margin: 0;
+            }
+        }
+
+    }
+
+}

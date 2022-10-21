@@ -2,7 +2,21 @@ body {
     background-color: black;
 }
 
+*::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+  }
+  
+*::-webkit-scrollbar-track {
+background: rgba(196, 196, 196, 0.699);
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: rgb(219, 219, 219);
+border-radius: 10px;
+}
 
 @import 'header';
 @import 'home';
 @import 'contato';
+@import 'lifestyle';

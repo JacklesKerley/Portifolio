@@ -2,6 +2,20 @@ body {
   background-color: black;
 }
 
+*::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(196, 196, 196, 0.699);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+
 header {
   background-color: rgba(43, 43, 43, 0.555);
   height: 10vh;
@@ -54,6 +68,13 @@ header .navegavel a:hover {
 .pg-home .conteudo p span {
   color: aqua;
 }
+.pg-home a {
+  text-decoration: none;
+  color: white;
+}
+.pg-home a:hover {
+  color: rgb(185, 179, 179);
+}
 
 .pg-contato {
   color: white;
@@ -86,4 +107,30 @@ header .navegavel a:hover {
 .pg-contato .caixa-img img {
   width: 50px;
   height: 50px;
+}
+
+.pg-life {
+  color: white;
+}
+.pg-life .limit {
+  min-height: 90vh;
+}
+.pg-life .limit .caixa-life {
+  width: 85%;
+}
+.pg-life .limit .caixa-life .cx {
+  border-radius: 5px;
+}
+.pg-life .limit .caixa-life .cx div {
+  margin: 10px;
+}
+.pg-life .limit .caixa-life .cx div p {
+  text-indent: 20px;
+  text-align: justify;
+}
+.pg-life .limit .caixa-life .cx div .img1 {
+  border-radius: 50% 5px 5px 50%;
+}
+.pg-life .limit .caixa-life .cx div .img2 {
+  border-radius: 5px 50% 50% 5px;
 }/*# sourceMappingURL=style.css.map */

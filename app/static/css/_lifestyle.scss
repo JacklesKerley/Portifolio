@@ -1,0 +1,32 @@
+.pg-life {
+  color: white;
+
+  .limit {
+    min-height: 90vh;
+
+    .caixa-life {
+      width: 85%;
+
+      .cx {
+        border-radius: 5px;
+
+        div {
+          margin: 10px;
+
+          p {
+            text-indent: 20px;
+            text-align: justify;
+          }
+
+          .img1 {
+            border-radius: 50% 5px 5px 50%;
+          }
+
+          .img2 {
+            border-radius: 5px 50% 50% 5px;
+          }
+        }
+      }
+    }
+  }
+}

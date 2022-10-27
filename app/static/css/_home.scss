@@ -28,12 +28,15 @@
         }
     }
 
-    a {
+    .open {
         text-decoration: none;
         color: white;
+        position: fixed;
+        top: 4vh;
+        right: 3%;
 
         &:hover {
-            color: rgb(185, 179, 179);
+            color: aqua;
         }
     }
 }

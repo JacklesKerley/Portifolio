@@ -61,28 +61,64 @@ header .navegavel a:hover {
   font-style: normal;
 }
 .pg-home {
-  min-height: 90vh;
+  min-height: 100vh;
   color: white;
 }
 .pg-home .conteudo {
   width: 80%;
+  height: 70vh;
 }
 .pg-home .conteudo p {
   font-size: 600%;
   font-family: "Gotham", Helvetica, sans-serif;
-  letter-spacing: -5px;
+  letter-spacing: -4px;
   font-weight: normal;
   line-height: 1.3;
+}
+@media (min-width: 1500px) and (max-width: 1700px) {
+  .pg-home .conteudo p {
+    font-size: 750%;
+    letter-spacing: -6px;
+  }
+}
+@media (min-width: 1701px) and (max-width: 1900px) {
+  .pg-home .conteudo p {
+    font-size: 850%;
+    letter-spacing: -6px;
+  }
+}
+@media (min-width: 1901px) and (max-width: 2100px) {
+  .pg-home .conteudo p {
+    font-size: 950%;
+    letter-spacing: -6px;
+  }
+}
+@media (min-width: 2101px) {
+  .pg-home .conteudo p {
+    font-size: 1100%;
+    letter-spacing: -6px;
+  }
 }
 .pg-home .conteudo p span {
   color: aqua;
 }
 .pg-home .open {
+  font-size: 110%;
   text-decoration: none;
   color: white;
   position: fixed;
   top: 4vh;
   right: 3%;
+}
+@media (min-width: 1500px) and (max-width: 1800px) {
+  .pg-home .open {
+    font-size: 150%;
+  }
+}
+@media (min-width: 1801px) {
+  .pg-home .open {
+    font-size: 200%;
+  }
 }
 .pg-home .open:hover {
   color: aqua;
@@ -137,29 +173,7 @@ header .navegavel a:hover {
 .pg-contato .caixa-contato {
   width: 90%;
 }
-.pg-contato .formulario input {
-  background-color: rgba(160, 160, 160, 0.4);
-  border: 1px solid rgb(39, 39, 39);
-  border-radius: 5px;
-}
-.pg-contato .formulario input::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
-.pg-contato .formulario input:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
-.pg-contato .formulario input::placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
-.pg-contato .formulario textarea {
-  background-color: rgba(160, 160, 160, 0.4);
-  border: 1px solid rgb(39, 39, 39);
-  border-radius: 5px;
-}
-.pg-contato .formulario .btn {
-  filter: opacity(0.6);
-}
 .pg-contato .caixa-img img {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
 }/*# sourceMappingURL=style.css.map */

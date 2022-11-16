@@ -41,20 +41,19 @@ header .navegavel a:hover {
 }
 
 .seta {
-  position: relative;
-  bottom: 10px;
-  right: 30px;
+  float: right;
+  margin: 0 20px 10px 0;
 }
 .seta a {
   color: white;
   text-decoration: none;
 }
+.seta a span {
+  font-size: 45px;
+}
 .seta a:hover {
   color: aqua;
   transition: 0.5s ease;
-}
-.seta span {
-  font-size: 35px;
 }
 
 .footer {

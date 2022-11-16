@@ -40,6 +40,23 @@ header .navegavel a:hover {
   transition: 0.5s ease;
 }
 
+.seta {
+  position: relative;
+  bottom: 10px;
+  right: 30px;
+}
+.seta a {
+  color: white;
+  text-decoration: none;
+}
+.seta a:hover {
+  color: aqua;
+  transition: 0.5s ease;
+}
+.seta span {
+  font-size: 35px;
+}
+
 .footer {
   background-color: rgba(43, 43, 43, 0.3);
   width: 100%;

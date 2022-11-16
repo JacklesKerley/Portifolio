@@ -174,15 +174,6 @@ header .navegavel a:hover {
 .pg-academic .limit2 .periodo {
   color: grey;
 }
-.pg-academic .limit2 .formacao li {
-  margin: 30px 0;
-}
-.pg-academic .limit2 .cursos li {
-  margin: 30px 0;
-}
-.pg-academic .limit2 .li-interna li {
-  margin: 0;
-}
 
 .pg-work {
   color: white;
@@ -190,20 +181,11 @@ header .navegavel a:hover {
 .pg-work .limit {
   min-height: 90vh;
 }
-.pg-work .limit .exp .empresa {
-  margin: 30px 0;
-}
-.pg-work .limit .exp .empresa ul {
-  list-style: none;
-}
-.pg-work .limit .exp .titulo-xp {
-  font-weight: bold;
-}
-.pg-work .limit .exp .desc {
-  color: rgb(109, 109, 109);
-}
 .pg-work .limit .exp .periodo {
-  color: rgba(128, 128, 128, 0.712);
+  color: rgb(128, 128, 128);
+}
+.pg-work .limit .exp a {
+  text-decoration: none;
 }
 
 .pg-contato {

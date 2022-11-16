@@ -14,6 +14,10 @@ def lifestyle():
 def academic():
   return render_template('academic.html') 
 
+@app.route('/works')
+def works():
+  return render_template('works.html') 
+
 @app.route('/contato')
 def contato():
   return render_template('contato.html') 

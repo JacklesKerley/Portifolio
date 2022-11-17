@@ -6,15 +6,15 @@ from flask import render_template
 def index():
   return render_template('home.html')
 
-@app.route('/lifestyle')
+@app.route('/sobre')
 def lifestyle():
   return render_template('lifestyle.html') 
 
-@app.route('/academic')
+@app.route('/formacao')
 def academic():
   return render_template('academic.html') 
 
-@app.route('/works')
+@app.route('/experiencia')
 def works():
   return render_template('works.html') 
 

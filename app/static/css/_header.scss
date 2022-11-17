@@ -16,6 +16,10 @@ header {
     .navegavel {
         text-align: center;
 
+        @media (max-width: 899px) {
+            display: none !important;
+        }
+
         a {
             text-decoration: none;
             color: white;
@@ -25,6 +29,68 @@ header {
             &:hover {
                 color: aqua;
                 transition: 0.5s ease;
+            }
+        }
+    }
+
+    .menuSanduiche {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding-right: 15px;
+        width: 28%;
+
+
+        span {
+            font-size: xx-large;
+            color: white
+        }
+
+        :hover {
+            color: grey;
+            cursor: pointer;
+        }
+
+        @media (min-width: 900px) {
+            display: none;
+        }
+    }
+
+    .menuMobile {
+        position: fixed;
+        top: 10vh;
+        right: -100%;
+        width: 100px;
+        height: 90vh;
+        background-color: rgba(43, 43, 43, 0.3);
+        transition: all 900ms ease;
+
+        &.aberto {
+            right: 0;
+        }
+
+        .menuMobileLista {
+            ul {
+                padding: 0;
+                list-style: none;
+
+                li {
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: end;
+                        height: 1.5em;
+                        color: white;
+                        text-decoration: none;
+
+                        &:hover {
+                            background-color: rgb(177, 170, 170);
+                            color: white
+                        }
+
+                    }
+                }
             }
         }
     }
@@ -46,8 +112,7 @@ header {
             color: aqua;
             transition: 0.5s ease;
         }
-
-    }    
+    }
 }
 
 .footer {

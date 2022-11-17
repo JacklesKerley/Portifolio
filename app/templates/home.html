@@ -11,6 +11,20 @@
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+    
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      background-image: url(../static/img/fotobackmobile.svg);
+      background-size: cover;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 894px) {
+    body {
+      background-size:contain;
+    }
   }
 
   .header {
@@ -40,7 +54,7 @@
     </p>
   </div>
 
-  <a href="/lifestyle" class="open">
+  <a href="/sobre" class="open">
     <span>Entrar</span>
   </a>
 

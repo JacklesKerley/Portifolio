@@ -7,7 +7,14 @@
     .caixa-life {
       width: 85%;
 
-      .cx {
+      @media (max-width: 899px) {
+        width: 95%;
+      }
+
+      .cx1,
+      .cx2,
+      .cx3,
+      .cx4 {
         border-radius: 5px;
 
         div {
@@ -24,6 +31,44 @@
 
           .img2 {
             border-radius: 5px 50% 50% 5px;
+          }
+        }
+      }
+
+      .cx1, .cx3 {
+        @media (max-width: 784px) {
+          flex-direction: column-reverse !important;
+
+          .conteudo {
+            width: 85% !important;
+            margin-top: 0px !important;
+          }
+
+          .imagem {
+            max-width: 200px !important;
+            .img1 {
+              border-radius: 15% !important;
+              margin-bottom: 0px !important;
+            }
+          }
+        }
+      }
+
+      .cx2, .cx4 {
+        @media (max-width: 784px) {
+          flex-direction: column !important;
+
+          .conteudo {
+            width: 85% !important;
+            margin-top: 0px !important;
+          }
+
+          .imagem {
+            max-width: 200px !important;
+            .img2 {
+              border-radius: 15% !important;
+              margin-bottom: 0px !important;
+            }
           }
         }
       }

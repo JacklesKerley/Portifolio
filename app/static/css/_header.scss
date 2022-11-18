@@ -11,6 +11,10 @@ header {
             width: 50px;
             border-radius: 50%;
         }
+
+        @media (max-width: 899px) {
+            margin-left: 25px !important;
+        }
     }
 
     .navegavel {
@@ -60,9 +64,9 @@ header {
         position: fixed;
         top: 10vh;
         right: -100%;
-        width: 100px;
+        width: 120px;
         height: 90vh;
-        background-color: rgba(43, 43, 43, 0.3);
+        background-color: rgba(43, 43, 43, 0.5);
         transition: all 900ms ease;
 
         &.aberto {

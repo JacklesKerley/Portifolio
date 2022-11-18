@@ -1,10 +1,13 @@
-
 .pg-work {
     color: white;
 
     .limit {
         min-height: 90vh;
-    
+
+        @media (max-width: 899px) {
+            width: 90% !important;
+        }
+
         .exp {
             .periodo {
                 color: rgba(128, 128, 128);

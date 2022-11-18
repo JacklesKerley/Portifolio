@@ -361,6 +361,11 @@ header .menuMobile .menuMobileLista ul li a:hover {
 .pg-work .limit {
   min-height: 90vh;
 }
+@media (max-width: 899px) {
+  .pg-work .limit {
+    width: 90% !important;
+  }
+}
 .pg-work .limit .exp .periodo {
   color: rgb(128, 128, 128);
 }

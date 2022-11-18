@@ -258,12 +258,17 @@ header .menuMobile .menuMobileLista ul li a:hover {
 .pg-life .limit {
   min-height: 90vh;
 }
+@media (max-width: 899px) {
+  .pg-life .limit {
+    width: 90% !important;
+  }
+}
 .pg-life .limit .caixa-life {
   width: 85%;
 }
 @media (max-width: 899px) {
   .pg-life .limit .caixa-life {
-    width: 95%;
+    width: 100% !important;
   }
 }
 .pg-life .limit .caixa-life .cx1,
@@ -336,8 +341,18 @@ header .menuMobile .menuMobileLista ul li a:hover {
 .pg-academic .limit2 {
   min-height: 90vh;
 }
+@media (max-width: 899px) {
+  .pg-academic .limit2 {
+    width: 90% !important;
+  }
+}
 .pg-academic .limit2 .periodo {
   color: grey;
+}
+@media (max-width: 899px) {
+  .pg-academic .limit2 .skill .sk {
+    width: 40% !important;
+  }
 }
 
 .pg-work {

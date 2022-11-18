@@ -4,11 +4,15 @@
   .limit {
     min-height: 90vh;
 
+    @media (max-width: 899px) {
+      width: 90% !important;
+    }
+
     .caixa-life {
       width: 85%;
 
       @media (max-width: 899px) {
-        width: 95%;
+        width: 100% !important;
       }
 
       .cx1,

@@ -1,12 +1,23 @@
-
 .pg-academic {
     color: white;
 
     .limit2 {
         min-height: 90vh;
 
+        @media (max-width: 899px) {
+            width: 90% !important;
+        }
+
         .periodo {
             color: grey;
-        } 
+        }
+
+        .skill {
+            .sk {
+                @media (max-width: 899px) {
+                    width: 40% !important;
+                }
+            }
+        }
     }
 }

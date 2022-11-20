@@ -7,11 +7,13 @@ Portifólio pessoal desenvolvido durante o 1° Semestre do curso de Desenvolvime
 
 ## Layout mobile
 
-
+![Mobile 1](https://github.com/JacklesKerley/Portifolio/blob/main/app/static/assets/home-mobile.JPG)
+![Mobile 1](https://github.com/JacklesKerley/Portifolio/blob/main/app/static/assets/base-template-mobile.JPG)
 
 ## Layout web
 
-
+![Web 1](https://github.com/JacklesKerley/Portifolio/blob/main/app/static/assets/home.JPG)
+![Web 2](https://github.com/JacklesKerley/Portifolio/blob/main/app/static/assets/base-template.JPG)
 
 # Tecnologias utilizadas
 

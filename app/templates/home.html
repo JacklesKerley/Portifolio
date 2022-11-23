@@ -1,6 +1,4 @@
-{% extends 'base.html' %}
-
-{% block head %}
+{% extends 'base.html' %} {% block head %}
 
 <title>Jackles Kerley</title>
 
@@ -10,10 +8,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
-    
   }
-  
+
   @media (max-width: 600px) {
     body {
       background-image: url(../static/img/fotobackmobile.svg);
@@ -23,41 +19,26 @@
 
   @media (min-width: 601px) and (max-width: 894px) {
     body {
-      background-size:contain;
+      background-size: contain;
     }
-  }
-
-  .header {
-    display: none !important;
   }
 
   .seta {
     display: none !important;
   }
 
-  .footer {
-    display: none !important;
-  }
 </style>
 
-{% endblock %}
-
-{% block body %}
+{% endblock %} {% block body %}
 
 <section class="pg-home container-fluid d-flex align-items-center">
-
   <div class="conteudo mx-auto d-flex align-items-center">
-
-    <p class="m-0 p-0">Hello World!<br>
-      I'm <span>Jackles</span>,<br>
+    <p class="m-0 p-0">
+      Hello World!<br />
+      I'm <span>Jackles</span>,<br />
       Web Developer.
     </p>
   </div>
-
-  <a href="/sobre" class="open">
-    <span>Entrar</span>
-  </a>
-
 </section>
 
 {% endblock %}

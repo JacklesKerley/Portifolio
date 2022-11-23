@@ -135,7 +135,7 @@ header .menuMobile .menuMobileLista ul li a:hover {
   font-style: normal;
 }
 .pg-home {
-  min-height: 100vh;
+  min-height: 85vh;
   color: white;
 }
 .pg-home .conteudo {
@@ -228,27 +228,6 @@ header .menuMobile .menuMobileLista ul li a:hover {
   }
 }
 .pg-home .conteudo p span {
-  color: aqua;
-}
-.pg-home .open {
-  font-size: 110%;
-  text-decoration: none;
-  color: white;
-  position: fixed;
-  top: 4vh;
-  right: 3%;
-}
-@media (min-width: 1500px) and (max-width: 1800px) {
-  .pg-home .open {
-    font-size: 150%;
-  }
-}
-@media (min-width: 1801px) {
-  .pg-home .open {
-    font-size: 200%;
-  }
-}
-.pg-home .open:hover {
   color: aqua;
 }
 

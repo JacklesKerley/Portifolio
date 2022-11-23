@@ -8,7 +8,7 @@
 }
 
 .pg-home {
-    min-height: 100vh;
+    min-height: 85vh;
     color: white;
 
     .conteudo {
@@ -91,27 +91,6 @@
             span {
                 color: aqua;
             }
-        }
-    }
-
-    .open {
-        font-size: 110%;
-        text-decoration: none;
-        color: white;
-        position: fixed;
-        top: 4vh;
-        right: 3%;
-
-        @media (min-width: 1500px) and (max-width: 1800px) {
-            font-size: 150%;
-        }
-
-        @media (min-width: 1801px) {
-            font-size: 200%;
-        }
-
-        &:hover {
-            color: aqua;
         }
     }
 }

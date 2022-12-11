@@ -8,16 +8,16 @@ def index():
 
 @app.route('/sobre')
 def lifestyle():
-  return render_template('lifestyle.html') 
+  return render_template('lifestyle.html')
 
 @app.route('/formacao')
 def academic():
-  return render_template('academic.html') 
+  return render_template('academic.html')
 
 @app.route('/experiencia')
 def works():
-  return render_template('works.html') 
+  return render_template('works.html')
 
 @app.route('/contato')
 def contato():
-  return render_template('contato.html') 
+  return render_template('contato.html')

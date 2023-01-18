@@ -56,7 +56,7 @@ Flask run
 
 https://www.linkedin.com/in/jackles-kerley/
 
-Portifólio: https://portifolio-azure-six.vercel.app/contato
+Portifólio: https://portifolio-azure-six.vercel.app
 
 
 

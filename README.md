@@ -45,8 +45,8 @@ venv\Scripts\activate
 pip install flask
 
 # Instale o requerimentos
-pip freeze > requeriments.txt
-pip install -r requeriments.txt
+pip freeze > requirements.txt
+pip install -r requirements.txt
 
 # Execute o projeto
 Flask run

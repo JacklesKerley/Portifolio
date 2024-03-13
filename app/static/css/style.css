@@ -141,6 +141,10 @@ header .menuMobile .menuMobileLista ul li a:hover {
 .pg-home .conteudo {
   width: 80%;
   height: 70vh;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 8%;
 }
 @media (max-width: 600px) {
   .pg-home .conteudo {
@@ -149,7 +153,7 @@ header .menuMobile .menuMobileLista ul li a:hover {
   }
 }
 .pg-home .conteudo p {
-  font-size: 350%;
+  font-size: 450%;
   font-family: "Gotham", Helvetica, sans-serif;
   letter-spacing: -4px;
   font-weight: normal;
@@ -169,31 +173,31 @@ header .menuMobile .menuMobileLista ul li a:hover {
 }
 @media (min-width: 466px) and (max-width: 600px) {
   .pg-home .conteudo p {
-    font-size: 500%;
+    font-size: 450%;
     letter-spacing: -4px;
   }
 }
 @media (min-width: 601px) and (max-width: 700px) {
   .pg-home .conteudo p {
-    font-size: 350%;
+    font-size: 450%;
     letter-spacing: -4px;
   }
 }
 @media (min-width: 701px) and (max-width: 790px) {
   .pg-home .conteudo p {
-    font-size: 400%;
+    font-size: 500%;
     letter-spacing: -4px;
   }
 }
 @media (min-width: 791px) and (max-width: 894px) {
   .pg-home .conteudo p {
-    font-size: 450%;
+    font-size: 550%;
     letter-spacing: -4px;
   }
 }
 @media (min-width: 895px) and (max-width: 1100px) {
   .pg-home .conteudo p {
-    font-size: 500%;
+    font-size: 600%;
     letter-spacing: -6px;
   }
 }
@@ -205,30 +209,38 @@ header .menuMobile .menuMobileLista ul li a:hover {
 }
 @media (min-width: 1501px) and (max-width: 1700px) {
   .pg-home .conteudo p {
-    font-size: 750%;
+    font-size: 700%;
     letter-spacing: -6px;
   }
 }
 @media (min-width: 1701px) and (max-width: 1900px) {
   .pg-home .conteudo p {
-    font-size: 850%;
+    font-size: 800%;
     letter-spacing: -6px;
   }
 }
 @media (min-width: 1901px) and (max-width: 2100px) {
   .pg-home .conteudo p {
-    font-size: 950%;
+    font-size: 900%;
     letter-spacing: -6px;
   }
 }
 @media (min-width: 2101px) {
   .pg-home .conteudo p {
-    font-size: 1100%;
+    font-size: 1000%;
     letter-spacing: -6px;
   }
 }
 .pg-home .conteudo p span {
   color: aqua;
+}
+.pg-home .conteudo .divBoasVindas {
+  position: relative;
+  left: -130%;
+  transition: all 800ms ease;
+}
+.pg-home .conteudo .divBoasVindas.inicio {
+  left: 0px;
 }
 
 .pg-life {

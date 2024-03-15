@@ -16,8 +16,8 @@
         height: 70vh;
         // background-color: aqua;
 
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
         position: absolute;
         left: 8%;
 

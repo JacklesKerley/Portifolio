@@ -141,8 +141,8 @@ header .menuMobile .menuMobileLista ul li a:hover {
 .pg-home .conteudo {
   width: 80%;
   height: 70vh;
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  flex-direction: column !important;
   position: absolute;
   left: 8%;
 }
